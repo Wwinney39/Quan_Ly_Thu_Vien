@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText android:id="@+id/edtMaSach" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Mã sách"/>
+    <EditText android:id="@+id/edtTenSach" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Tên sách"/>
+    <EditText android:id="@+id/edtTacGia" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Tác giả"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thể loại:"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <Spinner
+        android:id="@+id/spnTheLoai"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:id="@+id/btnSaveBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lưu thông tin sách"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
